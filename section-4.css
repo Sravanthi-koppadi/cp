@@ -1,0 +1,102 @@
+.section4{   
+display: flex;
+flex-direction: column;
+text-align: justify;
+gap: 80px;
+padding: 15px;
+margin-top: 0px;
+}
+.section41{   
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.section41 span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.section42{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.section42-box1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.section42-box1 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+#heart-detection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+@media(max-width:1024px){
+    .section42{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+.section41{   
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.section41 span{ 
+    width: 300px;
+}
+}
+@media(max-width:767px){
+    .section4{   
+        margin-right: 0px;
+}
+.section41 span{ 
+    width: 300px;
+}
+    .section41{   
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+  .section42{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+.section42-box1 img {
+    width: 100%; /* Make image responsive within its container */
+    max-width: 350px; /* Maximum size for project images */
+    height: 200px; /* Fixed height for consistency in rows */
+    object-fit: cover; /* Ensures images fill their space nicely */
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+}

@@ -1,0 +1,77 @@
+.section3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.section31{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 220px;
+}
+.section31 span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.section32{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 120px;
+}
+.section32-box{
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.section32-box > :nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.skill-1 img{
+    width: 20px;
+}
+.skill-1{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+@media(max-width:1024px){
+    .section32{
+    margin-top: 0px;
+    padding-bottom: 10%;
+    display: flex;
+    align-items:center;
+    gap: 100px;
+    flex-direction: column;
+}
+.section32-box{
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.section31{
+    padding-bottom: 50px;
+}
+}
+@media(max-width:767px){
+    .section32-box{
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0px;
+}
+}

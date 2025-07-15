@@ -1,0 +1,39 @@
+.section6{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap:50px;
+padding: 50px;
+}
+.section6 span{
+    font-weight: 500;
+    display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+padding-top: 50px;
+}
+@media (max-width: 1024px) {
+.section6 span{
+    font-size: 15px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.section6 .menu-bar{
+    width: 300px;
+    margin-left: 0px;
+
+}
+.menu-bar li a{
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.section6{
+    margin: 0px;
+}
+}
